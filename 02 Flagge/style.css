@@ -1,0 +1,58 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.flag {
+    position: relative;
+    background-color: rgb(180, 6, 6);
+    width: 900px;
+    height: 600px;
+}
+.bluestripe {
+    background-color: rgb(21, 21, 169);
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+.redstripe {
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+.whitecircle {
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text_in_circle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+
+

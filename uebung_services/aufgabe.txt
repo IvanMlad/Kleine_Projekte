@@ -1,0 +1,28 @@
+CSS-ÜBUNG – OUR SERVICES
+=========================
+
+Deine Aufgabe:
+--------------
+Baue die Beispielseite "Our Services" nach.
+
+1. Lege eine Navigation oben an mit folgenden Menüpunkten:
+   - ORGANIC, ACCESSORIES, BLOGS, CATEGORY, COLLECTION, CONTACT
+
+2. Setze darunter eine große Überschrift: "Our Services"
+
+3. Baue 4 Service-Boxen nebeneinander:
+   - Icon (im Ordner /img)
+   - Titel (z. B. Free Shipping, Money Back, Online Support, Special Gift)
+   - kurzer Text (z. B. "Lorem Ipsum is simply dummy")
+
+4. Gestalte mit CSS:
+   - Navigation grün (#82bc3b), Text weiß, beim Hover schwarz
+   - Service-Boxen zentrieren und gleichmäßig verteilen
+   - Icons oberhalb der Titel anzeigen
+   - optionale Trennlinien zwischen den Boxen
+
+Tipps:
+------
+- Arbeite mit flexbox für die horizontale Anordnung.
+- Nutze eine serifenlose Schrift (sans-serif).
+- Halte deine CSS-Datei sauber und kommentiere wichtige Stellen.

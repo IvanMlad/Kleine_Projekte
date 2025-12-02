@@ -1,0 +1,118 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    border-top: 5px solid darkred;
+    border-bottom: 5px solid darkred;
+    padding: 50px;
+    color: #333;
+
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    border: 2px solid darkred;
+    box-shadow: 0 4px 8px 2px rgba(0,0,0,0.3);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: darkred;
+    background-color: bisque;
+    border-bottom:2px solid darkred;
+    box-shadow: 0 4px 8px -2px rgba(0,0,0,0.3); /* Only bottom shadow */
+    padding:50px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+    flex: 1;
+}
+
+.nav ul {
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    background-color: darkred;
+
+}
+
+nav a {
+    display: block;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition: background-color 1.0s ease;
+}
+
+.nav a.current, .nav a:hover {
+    background-color:coral;
+    
+}
+
+.p1{
+    display: flex;
+    justify-content: center;
+}
+
+.p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    text-align: center;
+    padding-left: 28px;
+    font-size: 2em; /* optional, makes arrow bigger */
+    margin-top: 10px; /* optional, adds space above arrow */
+}
+
+.tabelle {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    background-color: bisque;
+    border: 2px solid darkred; /* outer border */
+    color: darkred; /* outer text */
+    border-collapse: collapse;
+}
+
+.tabelle th, .tabelle td {
+    border: 2px solid darkred; /* inner cell border color */
+    color: darkred; /* inner cell text color */
+    padding: 8px 16px;
+}
+
+.haupt-inhalt {
+    background-color: bisque;
+    border: 10px solid darkred;
+    margin:20px;
+}
+
+.padding-needed{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.link:hover{
+    border-radius: 30px; /* bigger radius for more curve */
+    background-color: coral;
+    text-decoration: none;
+    transition: background-color 1.0s ease;
+    padding: 0.5em 2em;  /* add padding so text stays inside */
+    box-sizing: border-box;
+}
